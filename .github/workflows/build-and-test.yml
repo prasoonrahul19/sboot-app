@@ -56,7 +56,8 @@ jobs:
     needs: [build, gen-matrix]
 
     env:
-      NAME: Planet
+      NAME: world
+      
 
     steps:
 
